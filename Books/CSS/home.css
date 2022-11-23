@@ -1,0 +1,114 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.8)), url(/Images/Art+for+Website.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 25%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.logo>img {
+    width: 300px;
+    height: 65px;
+}
+
+.req {
+    width: 450px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.req>button {
+    width: 400px;
+    margin: 25px;
+    font-size: 25px;
+    color: rgba(77, 148, 253, 0.829);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s;
+}
+.req>button:hover{
+    transform: translateY(7px);
+    cursor: pointer;
+    color: blue;
+}
+
+.search {
+    position: relative;
+    color: #aaa;
+    font-size: 30px;
+}
+
+.forgot {
+    color: rgb(173, 164, 164);
+    font-family: sans-serif;
+    position: relative;
+    left: 122px;
+    transition: all 0.5s;    
+}
+.forgot:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.search input {
+    margin: 5px;
+    width: 400px;
+    border: 2px solid rgb(255, 255, 255);
+    background: none;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(212, 207, 207);
+    font-size: 18px;
+}
+
+.search input {
+    text-indent: 42px;
+}
+
+.search .fa-user {
+    position: absolute;
+    top: 15px;
+    width: 150px;
+    height: 50px;
+    left: 18px;
+}
+
+.search .fa-lock {
+    position: absolute;
+    top: 15px;
+    width: 150px;
+    height: 50px;
+    left: 18px;
+}
